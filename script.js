@@ -24,10 +24,10 @@ let time = prompt('Duration of travel (in hours)?', '')
 let speed = Math.round(distance / time)
 alert(`Your speed must be ${speed} km/h`)
 
-// //convertor
-// alert('Convert USD to EUR')
-// let USD = prompt('Amount of USD', '')
-// let exchangeRate = 0.94
-// const EURO = USD * exchangeRate
-// alert(`${USD} USD is ${EURO} EURO`)
+//convertor
+alert('Convert USD to EUR')
+let USD = prompt('Amount of USD', '')
+let exchangeRate = 0.94
+const EURO = USD * exchangeRate
+alert(`${USD} USD is ${EURO} EURO`)
 
