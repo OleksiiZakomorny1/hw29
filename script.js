@@ -8,10 +8,10 @@ let yourBirthYear = prompt('Your year of birth?', '')
 let userAge = currentYear - yourBirthYear
 alert(`You are ${userAge} years old`)
 
-// //square
-// let sideLength = prompt('The length of the side of the square?', '')
-// let squarePerimeter = sideLength * 4
-// alert(`The perimeter of the square is ${squarePerimeter} centimeters`)
+//square
+let sideLength = prompt('The length of the side of the square?', '')
+let squarePerimeter = sideLength * 4
+alert(`The perimeter of the square is ${squarePerimeter} centimeters`)
 
 // //circle
 // let circleRadius = prompt('The radius of the circle?', '')
