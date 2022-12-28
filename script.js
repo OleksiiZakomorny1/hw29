@@ -18,11 +18,11 @@ let circleRadius = prompt('The radius of the circle?', '')
 let circleSquare = Math.round(Math.PI * circleRadius ** 2)
 alert(`The square of the circle is ${circleSquare}`)
 
-// //speed
-// let distance = prompt('Distance between two cities (in km)?', '')
-// let time = prompt('Duration of travel (in hours)?', '')
-// let speed = Math.round(distance / time)
-// alert(`Your speed must be ${speed} km/h`)
+//speed
+let distance = prompt('Distance between two cities (in km)?', '')
+let time = prompt('Duration of travel (in hours)?', '')
+let speed = Math.round(distance / time)
+alert(`Your speed must be ${speed} km/h`)
 
 // //convertor
 // alert('Convert USD to EUR')
