@@ -13,10 +13,10 @@ let sideLength = prompt('The length of the side of the square?', '')
 let squarePerimeter = sideLength * 4
 alert(`The perimeter of the square is ${squarePerimeter} centimeters`)
 
-// //circle
-// let circleRadius = prompt('The radius of the circle?', '')
-// let circleSquare = Math.round(Math.PI * circleRadius ** 2)
-// alert(`The square of the circle is ${circleSquare}`)
+//circle
+let circleRadius = prompt('The radius of the circle?', '')
+let circleSquare = Math.round(Math.PI * circleRadius ** 2)
+alert(`The square of the circle is ${circleSquare}`)
 
 // //speed
 // let distance = prompt('Distance between two cities (in km)?', '')
